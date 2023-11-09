@@ -195,7 +195,8 @@
 								});
 							</script>
 						<?php } else { ?>
-							<span class="first-price-block">
+							<!-- ĐÃ THẤY -->
+							<span class="first-price-block">  
 								<script type="text/javascript">
 									baseUrl = "https://widgets.cryptocompare.com/";
 									var scripts = document.getElementsByTagName("script");
@@ -209,6 +210,7 @@
 									var theUrl = baseUrl+'serve/v2/coin/header?fsyms=<?php echo $header_coin_symbol_list_a_1; ?>&tsyms=<?php echo $mts_options['mts_header_coin_currencies']; ?>&local_url=<?php echo $header_coin_url_list_a_1; ?>';
 									s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
 									embedder.parentNode.appendChild(s);
+									console.log(theUrl);
 									})();
 								</script>
 							</span>
