@@ -835,7 +835,7 @@ function setup_framework_options(){
 						'group_title' => 'Bitcoin',
 						'group_sort' => '1',
 						'mts_header_coin_name' => 'Bitcoin',
-						'mts_header_coin_symbol' => BTC'',
+						'mts_header_coin_symbol' => 'BTC',
 						'mts_header_coin_url' => 'bitcoin-price-index'
 					),
 					'eth' => array(
